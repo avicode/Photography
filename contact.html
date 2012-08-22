@@ -1,0 +1,67 @@
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+    	<link rel="stylesheet" href="css/style.css" type="text/css" />
+		<link href="css/contact.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+    	<header>
+        
+        	<a href="index.html"><div class="logo"></div></a>
+            <div class="social">
+            	<a href="http://www.facebook.com/Avicode"><li class="facebook"></li></a>
+                <li class="twitter"></li>
+                <li class="email"></li>
+            </div>
+            <div class="clearnav"></div>
+	      	<div id="topContentPages">
+                <div class="alignleft">
+              	    <div class="nav">
+                            <li class="current-menu-item"><a href="index.html">Home</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="portfolio.html">Portfolio</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                    </div>
+                </div>
+                <div class="alignright">
+                	<div class="search">
+                        <form action="search/search.php" method="get" class="ccm-search-block-form">
+                            <div>
+                                <input name="search" value="1" type="hidden">
+                                <label style="display: none;" for="search_field_block" class="auto_clear">Type and press enter</label>
+                                <input placeholder="Type and press enter" class="search_box" name="query" type="text">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <section id="main">
+            <div class="content">
+        		<center><div id="contactform">
+                	<h1>Contact Us</h1>
+                    <form name="contact" action="contact.php" method="post">
+                        <label for="name">Full Name:</label>
+                        <input type="text" name="name" />
+                        <label for="email">Email:</label>
+                        <input type="email" name="email" />
+                        <label for="message">Message:</label>
+                        <textarea name="message" cols="15" rows="10"></textarea>
+                        <center><div class="submit-div"><a href="contact.php" name="submit" class="submit">Submit</a></div></center>
+                    </form>
+                </div></center>
+            </div>
+        </section>
+        <div class="clearfooter"></div>
+        <footer>
+        	<div class="copyright">
+            	Copyright &copy; 2012 Avicode Development
+            </div>
+            <div class="avicode">
+            	Designed and Developed by Avicode
+            </div>
+        </footer>
+    </body>
+</html>
